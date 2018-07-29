@@ -11,7 +11,7 @@ namespace MyCompany.ShootySpace.InputManagement
 		protected override void SetupBindings()
 		{
 			base.SetupBindings();
-			keyBindings.Add("shoot", KeyCode.Mouse0);
+			keyBindings.Add("shoot", KeyCode.Mouse0);	
 		}
 	}
 }
