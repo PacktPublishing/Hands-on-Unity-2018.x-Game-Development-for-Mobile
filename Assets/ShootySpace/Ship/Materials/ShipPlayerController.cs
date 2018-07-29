@@ -22,7 +22,7 @@ public class ShipPlayerController : MonoBehaviour
 			new PlayerInputBindings(),
 			new MouseFollowInputHandler(Camera.main)
 			);
-		ObjectPool pool = new ObjectPool(Resources.Load<GameObject>("projectile"), 2, true);
+		ObjectPool pool = new ObjectPool(Resources.Load<GameObject>("projectile"), 20, true);
 		shootAbility = new ShootAbility(transform, pool);
 		inputManager.AddActionToBinding("shoot", OnShoot);
 		
