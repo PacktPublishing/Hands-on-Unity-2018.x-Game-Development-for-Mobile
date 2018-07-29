@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ShipPlayerController : MonoBehaviour
 {
-	public Transform target;
+	[SerializeField]
+	private Transform playerTransform;
 	private Vector3 input;
 	private IInputManager inputManager;
 	
@@ -21,6 +22,6 @@ public class ShipPlayerController : MonoBehaviour
 		input = inputManager.GetMouseVector();
 		input.z = input.y;
 		input.y = 0;
-		target.transform.position = input;
+		playerTransform.transform.position = input;
 	}
 }
