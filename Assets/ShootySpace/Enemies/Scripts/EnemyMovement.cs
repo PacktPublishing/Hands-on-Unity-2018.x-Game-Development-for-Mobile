@@ -21,7 +21,7 @@ namespace MyCompany.ShootySpace.Enemies
 		{
 			if (transform.position.z < camera.ScreenToWorldPoint(lowerBoundMarker).z)
 			{
-				
+				gameObject.SetActive(false);
 			}
 		}
 	}

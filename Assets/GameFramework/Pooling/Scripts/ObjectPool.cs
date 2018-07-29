@@ -51,6 +51,27 @@ namespace MyCompany.GameFramework.Pooling
 			item.SetPool(this);
 			return next;
 		}
+		
+		public GameObject InstantiateFromPool(Vector3 postion)
+		{
+			GameObject next = null;
+			if (pooledItems.Count > 0)
+			{
+				next = pooledItems.Pop();
+				next.transform.position = postion;
+				next.SetActive(true);
+				return next;
+			}
+
+			if (!shouldAutoResize)
+			{
+				return null;
+			}
+			next = GameObject.Instantiate(prefab, postion, Quaternion.identity);
+			PooledItem item = next.AddComponent<PooledItem>();
+			item.SetPool(this);
+			return next;
+		}
 
 		public void ReturnToPool(GameObject go)
 		{
