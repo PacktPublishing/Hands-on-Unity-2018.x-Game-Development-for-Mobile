@@ -4,7 +4,9 @@ namespace MyCompany.GameFramework.SaveSystem.Samples
 {
 	public class SaveSystemSample : MonoBehaviour
 	{
+#pragma warning disable 0414
 		private SaveSystem saver;
+#pragma warning restore 0414
 		
 		private void Awake()
 		{

@@ -15,12 +15,12 @@ namespace MyCompany.ShootySpace.Enemies
 		private float verticalBounds;
 		private float timeSinceLastSpawn = 0.0f;
 		private float nextSpawnTime;
-		private Camera camera;
+		private Camera mainCamera;
 
 		private void Awake()
 		{
 			enemyPool = new ObjectPool(Resources.Load<GameObject>("enemy"), 5);
-			camera = Camera.main;
+			mainCamera = Camera.main;
 			SetNextSpawnTime();
 			
 			SetBounds();
@@ -59,8 +59,8 @@ namespace MyCompany.ShootySpace.Enemies
 
 		private void SetBounds()
 		{
-			verticalBounds = camera.ScreenToWorldPoint(new Vector3(0, camera.pixelHeight, camera.transform.position.y)).z;
-			horizontalBounds = camera.ScreenToWorldPoint(new Vector3(camera.pixelWidth, 0 , camera.transform.position.y)).x;
+			verticalBounds = mainCamera.ScreenToWorldPoint(new Vector3(0, mainCamera.pixelHeight, mainCamera.transform.position.y)).z;
+			horizontalBounds = mainCamera.ScreenToWorldPoint(new Vector3(mainCamera.pixelWidth, 0 , mainCamera.transform.position.y)).x;
 			paddingAmount = horizontalBounds * paddingPercent;
 		}
 	}

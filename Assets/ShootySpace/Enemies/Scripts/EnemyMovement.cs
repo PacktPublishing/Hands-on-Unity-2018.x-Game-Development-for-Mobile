@@ -6,20 +6,20 @@ namespace MyCompany.ShootySpace.Enemies
 	{
 		[SerializeField] private Vector3 movementDirection;
 		[SerializeField] private float movementSpeed;
-		private Camera camera;
+		private Camera mainCamera;
 		private Vector3 lowerBoundMarker;
 
 		private void Update()
 		{
-			camera = Camera.main;
+			mainCamera = Camera.main;
 			transform.Translate(movementDirection * movementSpeed * Time.deltaTime);
-			lowerBoundMarker = new Vector3(0, 0, camera.transform.position.y);
+			lowerBoundMarker = new Vector3(0, 0, mainCamera.transform.position.y);
 			CheckBounds();
 		}
 
 		private void CheckBounds()
 		{
-			if (transform.position.z < camera.ScreenToWorldPoint(lowerBoundMarker).z)
+			if (transform.position.z < mainCamera.ScreenToWorldPoint(lowerBoundMarker).z)
 			{
 				gameObject.SetActive(false);
 			}

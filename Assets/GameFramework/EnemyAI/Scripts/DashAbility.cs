@@ -9,7 +9,6 @@ namespace MyCompany.GameFramework.EnemyAI
 	public class DashAbility : IEnemyAbility
 	{
 		private bool inUse;
-		private float lockOnDistance = 7.0f;
 		private bool isLockedOn;
 		private float lockOnTime = 2.0f;
 		
