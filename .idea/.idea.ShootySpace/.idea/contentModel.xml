@@ -90,7 +90,7 @@
           </e>
           <e p="Ship" t="Include">
             <e p="Materials" t="Include">
-              <e p="ShipInput.cs" t="Include" />
+              <e p="ShipPlayerController.cs" t="Include" />
             </e>
           </e>
         </e>
