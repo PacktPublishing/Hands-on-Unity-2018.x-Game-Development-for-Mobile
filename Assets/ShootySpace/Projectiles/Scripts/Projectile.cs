@@ -18,6 +18,11 @@ namespace MyCompany.ShootySpace.Projectiles
 		{
 			transform.Translate(direction * speed * Time.deltaTime);
 		}
+		
+		private void OnTriggerEnter(Collider other)
+		{
+			gameObject.SetActive(false);
+		}
 
 		private IEnumerator SelfDestruct()
 		{

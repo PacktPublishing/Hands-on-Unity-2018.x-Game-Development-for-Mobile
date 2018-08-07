@@ -17,6 +17,11 @@ namespace MyCompany.ShootySpace.Enemies
 			CheckBounds();
 		}
 
+		private void OnCollisionEnter(Collision other)
+		{
+			gameObject.SetActive(false);
+		}
+
 		private void CheckBounds()
 		{
 			if (transform.position.z < mainCamera.ScreenToWorldPoint(lowerBoundMarker).z)

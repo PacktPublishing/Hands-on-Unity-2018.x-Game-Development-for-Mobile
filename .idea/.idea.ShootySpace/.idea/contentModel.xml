@@ -43,6 +43,12 @@
               <e p="ICollisionExitHandler.cs" t="Include" />
             </e>
           </e>
+          <e p="Pooling" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ObjectPool.cs" t="Include" />
+              <e p="PooledItem.cs" t="Include" />
+            </e>
+          </e>
           <e p="ProgressSystem" t="Include">
             <e p="Implementation" t="Include">
               <e p="ProgressTracker.cs" t="Include" />
@@ -81,6 +87,20 @@
           </e>
         </e>
         <e p="ShootySpace" t="Include">
+          <e p="Abilities" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Interfaces" t="Include">
+                <e p="IPlayerAbility.cs" t="Include" />
+              </e>
+              <e p="ShootAbility.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Enemies" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="EnemyMovement.cs" t="Include" />
+              <e p="EnemySpawnController.cs" t="Include" />
+            </e>
+          </e>
           <e p="Input" t="Include">
             <e p="Scripts" t="Include">
               <e p="MouseFollowInputHandler.cs" t="Include" />
@@ -88,8 +108,13 @@
               <e p="PlayerInputManager.cs" t="Include" />
             </e>
           </e>
+          <e p="Projectiles" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Projectile.cs" t="Include" />
+            </e>
+          </e>
           <e p="Ship" t="Include">
-            <e p="Materials" t="Include">
+            <e p="Scripts" t="Include">
               <e p="ShipPlayerController.cs" t="Include" />
             </e>
           </e>
