@@ -95,6 +95,11 @@
               <e p="ShootAbility.cs" t="Include" />
             </e>
           </e>
+          <e p="Audio" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="AudioManager.cs" t="Include" />
+            </e>
+          </e>
           <e p="Enemies" t="Include">
             <e p="Scripts" t="Include">
               <e p="EnemyMovement.cs" t="Include" />

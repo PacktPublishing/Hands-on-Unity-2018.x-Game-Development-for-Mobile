@@ -1,5 +1,6 @@
 ﻿using MyCompany.GameFramework.Pooling;
 using MyCompany.ShootySpace.Abilities.Interfaces;
+using MyCompany.ShootySpace.Audio;
 using UnityEngine;
 
 namespace MyCompany.ShootySpace.Abilities
