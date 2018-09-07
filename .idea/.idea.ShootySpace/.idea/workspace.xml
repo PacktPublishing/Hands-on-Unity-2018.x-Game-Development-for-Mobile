@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df197a18-a9ff-490e-9b94-9072d96e2b2f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootySpace/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ShootySpace/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ShootySpace/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ShootySpace/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameFramework/DungeonGenerator.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShootySpace/Sandbox/Scenes/AssetBundleSandbox.unity" afterPath="$PROJECT_DIR$/Assets/ShootySpace/Sandbox/Scenes/AssetBundleSandbox.unity" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" afterPath="$PROJECT_DIR$/Packages/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameFramework.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShootySpace/Abilities.meta" afterPath="$PROJECT_DIR$/Assets/ShootySpace/Abilities.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShootySpace/Audio.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShootySpace/Ship.meta" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Compiled-TestGraph.shader" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Temp/Compiled-TestGraph.shader">
+      <file leaf-file-name="Abilities.asmdef" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/ShootySpace/Abilities/Abilities.asmdef">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7056">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,13 +43,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/Ship/Scripts/ShipPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFramework/Input/Samples/SampleBindings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/424F6FA5-4461-4C4C-9450-D7A74BF62215/8c/04c1f119/AudioSource.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/iOS/TestScreenshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/Input/Scripts/PlayerInputBindings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFramework/Input/InputImplementation/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/Projectiles/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/UI/PortraitImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFramework/Input/InputImplementation/InputBindings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/Input/Scripts/MouseFollowInputHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Temp/Compiled-TestGraph.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/Enemies/Scripts/EnemySpawnController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/Enemies/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ShootySpace/Abilities/Scripts/ShootAbility.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,8 +68,8 @@
         <option value="$PROJECT_DIR$/Assets/ShootySpace/Projectiles/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/ShootySpace/Audio/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/ShootySpace/Abilities/Scripts/ShootAbility.cs" />
-        <option value="$PROJECT_DIR$/Assets/ShootySpace/Ship/Scripts/ShipPlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/ShootySpace/UI/PortraitImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/ShootySpace/Ship/Scripts/ShipPlayerController.cs" />
       </list>
     </option>
   </component>
@@ -100,12 +100,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ShootySpace (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ShootySpace (8 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -113,7 +114,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,11 +152,13 @@
       <workItem from="1534738010571" duration="3639000" />
       <workItem from="1535596748947" duration="872000" />
       <workItem from="1535687010817" duration="591000" />
+      <workItem from="1535943517992" duration="1035000" />
+      <workItem from="1535944869609" duration="396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17400000" />
+    <option name="totallyTimeSpent" value="18831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,11 +229,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-TestGraph.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/ShootySpace/UI/PortraitImage.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -239,7 +241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -474,24 +475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ShootySpace/Abilities/Scripts/ShootAbility.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="88" lean-forward="false" selection-start-line="12" selection-start-column="88" selection-end-line="12" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/424F6FA5-4461-4C4C-9450-D7A74BF62215/8c/04c1f119/AudioSource.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ShootySpace/Ship/Scripts/ShipPlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -506,14 +493,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-TestGraph.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/iOS/TestScreenshot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameFramework/GameFramework.asmdef">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ShootySpace/Ship/Scripts/ShipPlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/Compiled-TestGraph.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/ShootySpace/Abilities/Scripts/ShootAbility.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7056">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="62">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ShootySpace/Abilities/Abilities.asmdef">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,13 @@
+{
+    "name": "Ship",
+    "references": [
+        "GameFramework",
+        "Abilities",
+        "Audio",
+        "Input"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Abilities",
+    "references": [
+        "GameFramework",
+        "Audio"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

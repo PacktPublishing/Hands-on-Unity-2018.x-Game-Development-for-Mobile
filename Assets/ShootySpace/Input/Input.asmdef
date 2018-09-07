@@ -1,0 +1,10 @@
+{
+    "name": "Input",
+    "references": [
+        "GameFramework"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
